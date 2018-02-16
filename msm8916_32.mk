@@ -211,10 +211,6 @@ PRODUCT_SUPPORTS_VERITY := false
 PRODUCT_PACKAGES += \
     vendor.display.color@1.0-service
 
-# Fingerprint feature
-PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.fingerprint.xml:system/etc/permissions/android.hardware.fingerprint.xml \
-
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-service \
     android.hardware.audio@2.0-impl \
